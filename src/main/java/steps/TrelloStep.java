@@ -4,11 +4,15 @@ import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.E;
 import cucumber.api.java.pt.Entao;
 import cucumber.api.java.pt.Quando;
+import pom.LoginPage;
 
 public class TrelloStep {
+    LoginPage loginPage;
+
     @Dado("^que esteja logado no Trello$")
     public void queEstejaLogadoNoTrello() {
-        System.out.println("queEstejaLogadoNoTrello");
+        loginPage = new LoginPage();
+        loginPage.access();
     }
 
     @E("^acesse o board$")
