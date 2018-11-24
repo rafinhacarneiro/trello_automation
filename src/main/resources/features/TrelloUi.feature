@@ -13,5 +13,5 @@ Funcionalidade: Trello UI
     Entao o card nao existe mais
     Exemplos:
       |card name  | comment  |
-      |Alex Card  | Comentario do Alex Card  |
-      |Alex 2 Card  | Comentario do Alex 2 Card  |
+      |Rafael Card  | Comentario do Rafael Card  |
+      |Rafael 2 Card  | Comentario do Rafael 2 Card  |

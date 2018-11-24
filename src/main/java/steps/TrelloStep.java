@@ -4,6 +4,7 @@ import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.E;
 import cucumber.api.java.pt.Entao;
 import cucumber.api.java.pt.Quando;
+import org.junit.Assert;
 import pom.LoginPage;
 
 public class TrelloStep {
@@ -13,6 +14,8 @@ public class TrelloStep {
     public void queEstejaLogadoNoTrello() {
         loginPage = new LoginPage();
         loginPage.access();
+        loginPage.doLogin("rafinhacarneiro@outlook.com", "trakinas06");
+        Assert.assertEquals("Página Inicial do Trello", loginPage.checkInitialPage());
     }
 
     @E("^acesse o board$")
