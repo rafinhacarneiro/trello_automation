@@ -5,6 +5,7 @@ import cucumber.api.java.pt.E;
 import cucumber.api.java.pt.Entao;
 import cucumber.api.java.pt.Quando;
 import org.junit.Assert;
+import pom.FirstPage;
 import pom.LoginPage;
 
 public class TrelloStep {
@@ -20,7 +21,9 @@ public class TrelloStep {
 
     @E("^acesse o board$")
     public void acesseOBoard() {
-        System.out.println("acesseOBoard");
+        firstPage = new FirstPage();
+        firstPage.findBoard();
+
     }
 
     @Quando("^crio um card com o nome \"([^\"]*)\"$")
