@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a4f473a-860d-400f-a516-c5b2d90084a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pom/CardList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pom/SelectedCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pom/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pom/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pom/BoardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pom/BoardPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/steps/TrelloStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/TrelloStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/TrelloUi.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/TrelloUi.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/TrelloUi.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/TrelloUi.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pom/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pom/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pom/FirstPage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/steps/TrelloStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/steps/TrelloStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/Tools.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Tools.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,28 +26,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/RunnerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pom/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="57" />
+            <state relative-caret-position="476">
+              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#610#611#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
+                <element signature="e#644#645#0" expanded="true" />
+                <element signature="e#708#709#0" expanded="true" />
                 <element signature="e#1073#1074#0" expanded="true" />
-                <element signature="e#1141#1142#0" expanded="true" />
+                <element signature="e#1142#1143#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,46 +44,58 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/util/Tools.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="153">
+              <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pom/BoardPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pom/CardList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-166">
+              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pom/SelectedCard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="888">
+              <caret line="80" column="30" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#703#704#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pom/BoardPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="81" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#810#811#0" expanded="true" />
-                <element signature="e#874#875#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/steps/TrelloStep.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/Hook.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            <state relative-caret-position="-50">
+              <caret line="62" column="63" lean-forward="true" selection-start-line="62" selection-start-column="63" selection-end-line="62" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,11 +127,14 @@
         <option value="$PROJECT_DIR$/src/main/resources/features/TrelloUi.feature" />
         <option value="$PROJECT_DIR$/src/main/java/util/Hook.java" />
         <option value="$PROJECT_DIR$/src/main/java/pom/InitialPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/Tools.java" />
         <option value="$PROJECT_DIR$/src/main/java/pom/FirstPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pom/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/steps/TrelloStep.java" />
         <option value="$PROJECT_DIR$/src/main/java/pom/BoardPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pom/Card.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pom/CardList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/Tools.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pom/SelectedCard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/steps/TrelloStep.java" />
       </list>
     </option>
   </component>
@@ -141,8 +146,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
+    <option name="x" value="-8" />
     <option name="width" value="1340" />
     <option name="height" value="688" />
   </component>
@@ -154,6 +158,44 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="trello_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trello_automation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trello_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trello_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trello_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trello_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trello_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trello_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trello_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trello_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pom" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -198,64 +240,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="trello_automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trello_automation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trello_automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trello_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trello_automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trello_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trello_automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trello_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trello_automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trello_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trello_automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trello_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="steps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trello_automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trello_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543622828013" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543864413797" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -319,41 +307,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunnerTest - 2018.11.24 at 16h 35m 40s.xml">
+    <history-entry file="RunnerTest - 2018.12.04 at 10h 46m 42s.xml">
       <configuration name="RunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerTest - 2018.11.24 at 16h 36m 16s.xml">
+    <history-entry file="RunnerTest - 2018.12.04 at 10h 53m 43s.xml">
       <configuration name="RunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerTest - 2018.11.24 at 16h 51m 38s.xml">
+    <history-entry file="RunnerTest - 2018.12.04 at 10h 58m 23s.xml">
       <configuration name="RunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerTest - 2018.11.24 at 16h 52m 40s.xml">
+    <history-entry file="RunnerTest - 2018.12.04 at 11h 07m 51s.xml">
       <configuration name="RunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerTest - 2018.11.30 at 20h 25m 32s.xml">
+    <history-entry file="RunnerTest - 2018.12.04 at 11h 09m 15s.xml">
       <configuration name="RunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerTest - 2018.11.30 at 20h 28m 14s.xml">
+    <history-entry file="RunnerTest - 2018.12.04 at 11h 15m 17s.xml">
       <configuration name="RunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerTest - 2018.11.30 at 20h 34m 52s.xml">
+    <history-entry file="RunnerTest - 2018.12.04 at 11h 31m 04s.xml">
       <configuration name="RunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerTest - 2018.11.30 at 20h 40m 22s.xml">
+    <history-entry file="RunnerTest - 2018.12.04 at 11h 39m 36s.xml">
       <configuration name="RunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerTest - 2018.11.30 at 21h 01m 21s.xml">
+    <history-entry file="RunnerTest - 2018.12.04 at 11h 55m 47s.xml">
       <configuration name="RunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerTest - 2018.11.30 at 21h 02m 27s.xml">
+    <history-entry file="RunnerTest - 2018.12.04 at 11h 59m 10s.xml">
       <configuration name="RunnerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1609808" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16565809" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -362,7 +351,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22535211" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30882353" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -370,7 +359,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32827735" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.35947713" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -436,9 +425,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/features/TrelloUi.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/RunnerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="204">
           <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -448,35 +444,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/Hook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="289">
           <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/features/TrelloUi.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/Tools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/steps/TrelloStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -485,26 +454,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pom/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="57" />
+        <state relative-caret-position="476">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
             <element signature="e#1073#1074#0" expanded="true" />
-            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pom/BoardPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="81" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
+        <state relative-caret-position="136">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Tools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pom/SelectedCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="888">
+          <caret line="80" column="30" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pom/CardList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-166">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/steps/TrelloStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="62" column="63" lean-forward="true" selection-start-line="62" selection-start-column="63" selection-end-line="62" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
