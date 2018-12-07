@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a4f473a-860d-400f-a516-c5b2d90084a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/steps/TrelloApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/api/TrelloApi.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/RunnerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/TrelloUi.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/ui/TrelloUi.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/trello_automation.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/TrelloUi.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/RunnerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/RunnerTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="3a4f473a-860d-400f-a516-c5b2d90084a9" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/steps/TrelloApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="31" column="87" selection-start-line="31" selection-start-column="87" selection-end-line="31" selection-end-column="87" />
+            <state relative-caret-position="255">
+              <caret line="32" column="67" lean-forward="true" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1002#1003#0" expanded="true" />
@@ -234,7 +225,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544226256280" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544226280942" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -334,7 +325,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18085106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -345,7 +335,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30769232" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30769232" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -526,8 +516,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/steps/TrelloApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="31" column="87" selection-start-line="31" selection-start-column="87" selection-end-line="31" selection-end-column="87" />
+        <state relative-caret-position="255">
+          <caret line="32" column="67" lean-forward="true" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1002#1003#0" expanded="true" />
